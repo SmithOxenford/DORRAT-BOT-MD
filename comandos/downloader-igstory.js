@@ -1,4 +1,4 @@
-/* CREDITOS A https://github.com/FG98F */
+
 import axios from 'axios'
 import hx from 'hxz-api' 
 let handler = async (m, { conn, args, usedPrefix, command, text}) => {
