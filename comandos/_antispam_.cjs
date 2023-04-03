@@ -1,4 +1,3 @@
-//CRÉDITOS: https://github.com/Abiguelreyes75
 
 export async function all(m, conn) { 
 let texto

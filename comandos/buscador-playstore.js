@@ -7,7 +7,7 @@ let handler = async (m, { conn, args, usedPrefix, command, text }) => {
     let { version, updated, developer, id, requirements, installed } = json.info
     let pp = await (await fetch('https://telegra.ph/file/e867ad919a98764a4d719.jpg')).buffer()
     let info = `*📦 • Versión:* ${version}\n*📅 • Actualización:* ${updated}\n*👑 • Desarrollador:* ${developer}\n*ℹ️ • ID:* ${id}\n*📱 • Android:* ${requirements}\n*🛡️ • Instalada:* ${installed}`
-    await conn.sendNyanCat(m.chat, `${info}\n\n${global.wait}`, pp, `• Downloader Play Store 💎`, wm, 'https://github.com/DIEGO-OFC/DORRAT-BOT-MD', m)
+    await conn.sendNyanCat(m.chat, `${info}\n\n${global.wait}`, pp, `• Downloader Play Store 💎`, wm, 'https://github.com/ADRIANOSANCHEZ24/BOT-MAKANAKY-GAAA', m)
     
 conn.sendMessage(m.chat, { document: { url: `${json.apkdownload}` }, mimetype: 'application/videos.android.package-archive', fileName: `${text}.apk` }, { quoted: m })
 } catch { m.reply('⚠️ *_Resultados no encontrados._*') }

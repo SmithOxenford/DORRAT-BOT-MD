@@ -44,78 +44,78 @@ let haha = await conn.getFile(`https://api.xteam.xyz/randomimage/orgy?APIKEY=29d
 conn.sendButton(m.chat, `_${command}_`.trim(), author, haha.data, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
  
 if (command == 'tetas') { 
-let resError = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galeria/JSON/tetas.json`)).data   
+let resError = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galeria/JSON/tetas.json`)).data   
 let res = await conn.getFile(`https://api-fgmods.ddns.net/api/nsfw/boobs?apikey=fg-dylux`).data
 if (res == '' || !res || res == null) res = await resError[Math.floor(resError.length * Math.random())]  
 conn.sendButton(m.chat, `_${command}_`.trim(), wm3, res, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
 
 if (command == 'booty') {
-let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galeria/JSON/booty.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galeria/JSON/booty.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'ecchi') {
-let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galeria/JSON/ecchi.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galeria/JSON/ecchi.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'furro') {
-let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galería/JSON/furro.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galería/JSON/furro.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)} 
   
 if (command == 'trapito') {
-let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galeria/JSON/trapito.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galeria/JSON/trapito.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)} 
   
 if (command == 'imagenlesbians') {
-let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galería/JSON/imagenlesbians.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galería/JSON/imagenlesbians.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}  
   
 if (command == 'panties') {
-let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galeria/JSON/panties.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galeria/JSON/panties.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'pene') {
-let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galeria/JSON/pene.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galeria/JSON/pene.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'porno') {
-let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galeria/JSON/porno.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galeria/JSON/porno.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'randomxxx') {
-let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galeria/JSON/randomxxx.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galeria/JSON/randomxxx.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'pechos') {
-let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galeria/JSON/pechos.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galeria/JSON/pechos.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'yaoi') {
-let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galeria/JSON/yaoi.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galeria/JSON/yaoi.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'yaoi2') {
-let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galeria/JSON/yaoi2.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galeria/JSON/yaoi2.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'yuri') {
-let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galeria/JSON/yuri.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galeria/JSON/yuri.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   
 if (command == 'yuri2') {
-let res = (await axios.get(`https://raw.githubusercontent.com/DIEGO-OFC/DORRAT-BOT-MD/master/galeria/JSON/yuri2.json`)).data  
+let res = (await axios.get(`https://raw.githubusercontent.com/SmithOxenford/MAKANAKY-BOT-GAAA/master/galeria/JSON/yuri2.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendButton(m.chat, `_${command}_`.trim(), author, url, [['🔄 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴 🔄', `/${command}`]], m)}
   

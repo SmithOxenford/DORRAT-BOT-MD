@@ -1,4 +1,3 @@
-//creado por https://github.com/DIEGO-OFC
 
 let handler = async (m, { text, conn, args, command, usedPrefix }) => {
 

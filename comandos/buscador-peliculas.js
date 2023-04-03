@@ -1,4 +1,3 @@
-//Creado por https://github.com/DIEGO-OFC/DORRAT-BOT-MD
 
 import fetch from 'node-fetch'
 let handler = async (m, {text, usedPrefix, command, conn}) => {
@@ -22,11 +21,11 @@ let mov_txt =  `*${comienzo}「 PELÍCULAS 」${fin}*\n
 *Grabacion ∙* ${x.Country || '-'}
 
    ❕Pedido por @${m.sender.split("@")[0]}
-*🔥 THE DORRAT - BOT 🔥*`
+*🔥 THE MAKANAKY - BOT 🔥*`
 
 conn.sendMessage(m.chat, {image: {url: x.Poster}, caption: mov_txt, mentions: [m.sender]}, {quoted: m})
   
-/*let caption = `*${comienzo}「 PELÍCULAS 」${fin}*\n
+let caption = `*${comienzo}「 PELÍCULAS 」${fin}*\n
 🔍 *Titulo: ${x.Title || ''}*
 🗒️ *Año: ${x.Year || ''}*
 ⏱️ *Duración: ${x.Runtime || ''}*
@@ -34,8 +33,7 @@ conn.sendMessage(m.chat, {image: {url: x.Poster}, caption: mov_txt, mentions: [m
 👥 *Actores: ${x.Actors || ''}*
 
 ❕ Pedido por ${taguser}`
-conn.fakeReply(m.chat, caption, '0@s.whatsapp.net', '*🔥 THE DORRAT - BOT 🔥*', 'status@broadcast')*/
-
+conn.fakeReply(m.chat, caption, '0@s.whatsapp.net', '*🔥 THE MAKANAKY - BOT 🔥*', 'status@broadcast')
 }
 handler.command = /^(película|pelicula|peli)$/i
 handler.limit = true 
