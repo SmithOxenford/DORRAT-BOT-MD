@@ -44,12 +44,12 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 let uptime = clockString(_uptime)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let pp = imagen4
-let db = `╔═[ *∆.𝑫𝑶𝑹𝑹𝑯∆𝑻-𝑩𝑶𝑻.∆* ]
+let db = `╔═[ *∆.𝐁𝐎𝐓-𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘-𝐆𝐀𝐀𝐀.∆* ]
 ║ *➤ 𝙷𝙾𝙻𝙰 ${taguser}*
 ║
 ║ *=➢ 🤖 TIEMPO ACTIVO:* ${uptime}
-║ *=➢ 👑 CREADOR: DIEGO-OFC*
-║ *=➢ 🔗 PAGINA OFICIAL:* dorrat-bot-oficial.ml
+║ *=➢ 👑 CREADOR: ADRIANOSANCHEZ24*
+║ *=➢ 🔗 PAGINA OFICIAL:* Por ahora no tenemos
 ╚════════════════`.trim()
 let infobt = `
  *≡ S E R V E R*
@@ -94,20 +94,20 @@ let img = imagen5
 let _uptime = process.uptime() * 1000
 let uptime = clockString(_uptime)
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╔═[ *∆.𝑫𝑶𝑹𝑹𝑯∆𝑻-𝑩𝑶𝑻.∆* ]
+let str = `╔═[ *∆.𝐁𝐎𝐓-𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘-𝐆𝐀𝐀𝐀.∆* ]
 ║ *➤ 𝙷𝙾𝙻𝙰 ${taguser}*
 ║
 ║ *=➢ 🤖 TIEMPO ACTIVO:* ${uptime}
-║ *=➢ 👑 CREADOR: DIEGO-OFC*
-║ *=➢ 🔗 PAGINA OFICIAL:* dorrat-bot-oficial.ml
+║ *=➢ 👑 CREADOR: ADRIANO-OFC*
+║ *=➢ 🔗 PAGINA OFICIAL:* Por ahora no tenemos
 ╚════════════════`.trim()
 let buttons = [{ buttonId: '#menu', buttonText: { displayText: ' 𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻 ✅' }, type: 1 }]
-let buttonMessage = { image: pp, caption: str.trim(), mentions: [m.sender], footer: global.wm, buttons: buttons, headerType: 4, contextInfo: { mentionedJid: [m.sender], externalAdReply: { showAdAttribution: true, mediaType: 'VIDEO', mediaUrl: null, title: 'PÁGINA OFICIAL', body: 'BY @DIEGO-OFC', thumbnail: img, sourceUrl: `https://dorrat-bot-oficial.ml/`}}}
+let buttonMessage = { image: pp, caption: str.trim(), mentions: [m.sender], footer: global.wm, buttons: buttons, headerType: 4, contextInfo: { mentionedJid: [m.sender], externalAdReply: { showAdAttribution: true, mediaType: 'VIDEO', mediaUrl: null, title: 'PÁGINA OFICIAL', body: 'BY @DIEGO-OFC', thumbnail: img, sourceUrl: ``}}}
 conn.sendMessage(m.chat, buttonMessage, { quoted: m })
 } catch {
 let _uptime = process.uptime() * 1000
 let uptime = clockString(_uptime)    
-throw `*🤖 TIEMPO ACTIVO:* ${uptime} ┃ 👑 BY DIEGO-OFC ┃ 🔗 PAGINA OFC: dorrar-bot-oficial.ml`}}
+throw `*🤖 TIEMPO ACTIVO:* ${uptime} ┃ 👑 BY ADRIANO-OFC ┃ 🔗 PAGINA OFC: dorrar-bot-oficial.ml`}}
 handler.help = ['estado']
 handler.tags = ['main']
 handler.command = /^(estado|status|estate|state|stado|stats)$/i

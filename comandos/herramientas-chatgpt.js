@@ -15,7 +15,7 @@ await await conn.sendMessage(m.chat, {
          mentionedJid: [m.sender],
          externalAdReply: {
              title: `TOOLS - CHATGPT`,
-             sourceUrl: 'http://paypal.me/DorratBotOficial',
+             sourceUrl: 'http://paypal.me/',
              mediaType: 1,
              showAdAttribution: true,
              thumbnailUrl: "https://telegra.ph/file/10e013d9ae4d9cdf5af14.jpg",

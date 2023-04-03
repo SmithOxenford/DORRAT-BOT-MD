@@ -13,7 +13,7 @@ function kyun(seconds){
   var seconds = Math.floor(seconds % 60);
 
   //return pad(hours) + ':' + pad(minutes) + ':' + pad(seconds)
-  return `❍ https://github.com/DIEGO-OFC/DORRAT-BOT-MD\n\n*⏰ TIEMPO ACTIVO*\n \t${pad(days)} Dias\t ${pad(hours)} Horas ${pad(minutes)} Minutos ${pad(seconds)} Segudos \t\n`
+  return `❍ https://github.com/ADRIANOSANCHEZ24/BOT-MAKANAKY-GAAA\n\n*⏰ TIEMPO ACTIVO*\n \t${pad(days)} Dias\t ${pad(hours)} Horas ${pad(minutes)} Minutos ${pad(seconds)} Segudos \t\n`
 }
 					const runtime = process.uptime()
 		            const teks = `${kyun(runtime)}`

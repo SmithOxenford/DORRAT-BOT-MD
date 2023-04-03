@@ -33,8 +33,8 @@ let info = `
 ╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═`.trim()
 let info2 = `
 ╠
-║❒  [👑] *CREADOR: DIEGO-OFC*
-║❒  [#️⃣] *NUMERO: +525560066050
+║❒  [👑] *CREADOR: ADRIANOSANCHEZ24*
+║❒  [#️⃣] *NUMERO: +51986206184
 ║❒  [🛠️] *PREFIJO: ${usedPrefix}*
 ║❒  [💬] *CHATS PRIVADOS: ${chats.length - groups.length}*
 ║❒  [💭] *CHAT DE GRUPOS: ${groups.length}* 
@@ -50,7 +50,7 @@ let info2 = `
 ║❒  [🗺️] *MODO*: ${self ? '*𝚙𝚛𝚒𝚟𝚊𝚍𝚘*' : '*𝚙𝚞𝚋𝚕𝚒𝚌𝚘*'}
 ║❒  [🔴] *RAM:* ${format(json.memory)}
 ╠
-*╠═〘 Dorrat-Bot-MD 〙 ═*
+*╠═〘 𝐁𝐎𝐓-𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘-𝐆𝐀𝐀𝐀 〙 ═*
 `.trim() 
 conn.sendButton(m.chat, info, info2, pp, [
 ['[ GRUPOS ]', '#grupos']
