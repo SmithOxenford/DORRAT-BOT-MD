@@ -12,15 +12,15 @@ let texto1 = `${mg}𝙐𝙎𝙀 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊 𝘾𝙊�
 let texto2 = `${ag}¡𝙔𝘼 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀𝙎 𝙏𝙊𝙆𝙀𝙉𝙎! 🪙\n\n𝘾𝙊𝙈𝙋𝙍𝘼 𝙏𝙊𝙆𝙀𝙉𝙎 𝙋𝘼𝙍𝘼 𝙋𝙊𝘿𝙀𝙍 𝙐𝙉𝙄𝙍 𝘿𝙤𝙧𝙧𝙖𝙩𝘽𝙊𝙏 𝘼 𝙏𝙐 𝙂𝙍𝙐𝙋𝙊 𝘾𝙊𝙉 𝙀𝙇 𝘾𝙊𝙈𝘼𝙉𝘿𝙊:\n*${usedPrefix}buy joincount 3*`
 let texto3 = `${fg}𝙀𝙉𝙇𝘼𝘾𝙀 𝙉𝙊 𝙑𝘼𝙇𝙄𝘿𝙊. 𝘿𝙀𝘽𝙀 𝙎𝙀𝙍 𝙀𝙉𝙇𝘼𝘾𝙀 𝘿𝙀 𝙂𝙍𝙐𝙋𝙊 𝘿𝙀 𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋\n*${usedPrefix + command} ${grupos.getRandom()} 3*`
 let texto4 = `${mg}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙉𝙐𝙈𝙀𝙍𝙊 𝘿𝙀 𝙏𝙊𝙆𝙀𝙉(𝙎)\n*3* 𝙏𝙊𝙆𝙀𝙉 🪙 = *30* 𝙈𝙄𝙉𝙐𝙏𝙊𝙎`
-let texto5 = `${fg}𝙈𝙄𝙉𝙄𝙈𝙊 *3* 𝙏𝙊𝙆𝙀𝙉(𝙎) 𝙋𝘼𝙍𝘼 𝙋𝙊𝘿𝙀𝙍 𝙐𝙉𝙄𝙍 𝘼 𝘿𝙊𝙍𝙍𝘼𝙏𝘽𝙊𝙏`
-let texto6 = `${fg}𝙈𝘼𝙓𝙄𝙈𝙊 *3* 𝙏𝙊𝙆𝙀𝙉(𝙎) 𝙋𝘼𝙍𝘼 𝙋𝙊𝘿𝙀𝙍 𝙐𝙉𝙄𝙍 𝘼 𝘿𝙤𝙧𝙧𝙖𝙩𝘽𝙊𝙏`
+let texto5 = `${fg}𝙈𝙄𝙉𝙄𝙈𝙊 *3* 𝙏𝙊𝙆𝙀𝙉(𝙎) 𝙋𝘼𝙍𝘼 𝙋𝙊𝘿𝙀𝙍 𝙐𝙉𝙄𝙍 𝘼 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔𝘽𝙊𝙏`
+let texto6 = `${fg}𝙈𝘼𝙓𝙄𝙈𝙊 *3* 𝙏𝙊𝙆𝙀𝙉(𝙎) 𝙋𝘼𝙍𝘼 𝙋𝙊𝘿𝙀𝙍 𝙐𝙉𝙄𝙍 𝘼 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔𝘽𝙊𝙏`
 
-let texto7 = `✅ 𝙎𝙀 𝙃𝘼 𝙐𝙉𝙄𝘿𝙊 𝘿𝙊𝙍𝙍𝘼𝙏𝘽𝙊𝙏 𝘼𝙇 𝙂𝙍𝙐𝙋𝙊!`
+let texto7 = `✅ 𝙎𝙀 𝙃𝘼 𝙐𝙉𝙄𝘿𝙊 𝙈𝘼𝙆𝘼𝙉𝘼𝙆𝙔𝘽𝙊𝙏 𝘼𝙇 𝙂𝙍𝙐𝙋𝙊!`
 
 let img1 = 'https://img.freepik.com/vector-premium/animacion-monedas-pixeles-imagenes-animacion-moneda-oro-ilustracion-vectorial_350225-3.jpg?w=2000'
 let img2 ='https://img.freepik.com/premium-vector/set-8bit-pixel-graphics-icons-game-art-coins-gold-animation_534389-12.jpg?w=2000'
 
-if (!global.db.data.settings[conn.user.jid].temporal) return conn.sendButton( m.chat, wm, texto0, null, [[`🙌 𝙎𝙊𝙇𝙄𝘾𝙄𝙏𝘼𝙍 𝘾𝙊𝙈𝘼𝙉𝘿𝙊`, `.reporte *Quiero unir a DorratBot en mí Grupo. Por favor Active la función #botemporal*`], [`🍀 𝙈 𝙀 𝙉 𝙐`, `.menu`]], fkontak, m) 
+if (!global.db.data.settings[conn.user.jid].temporal) return conn.sendButton( m.chat, wm, texto0, null, [[`🙌 𝙎𝙊𝙇𝙄𝘾𝙄𝙏𝘼𝙍 𝘾𝙊𝙈𝘼𝙉𝘿𝙊`, `.reporte *Quiero unir a MakanakyBot en mí Grupo. Por favor Active la función #botemporal*`], [`🍀 𝙈 𝙀 𝙉 𝙐`, `.menu`]], fkontak, m) 
 
 if (!args[0]) return conn.sendButton( m.chat, wm, texto1, null, [[`🍀 𝙈 𝙀 𝙉 𝙐`, `.menu`]], fkontak, m)
 let [_, code] = args[0].match(linkRegex) || []
@@ -61,12 +61,12 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let mentionedJid = [who]
 let username = conn.getName(who)
   
-if (user.joincount === 0 ) throw `${ag}*¡YA NO TIENES TOKENS! 🪙*\n\n*COMPRA TOKENS PARA PODER INVITAR A DORRATBOT A TÚ GRUPO CON EL COMANDO *${usedPrefix}buy joincount 3 o ${usedPrefix}buy Para ver la Tienda*`
+if (user.joincount === 0 ) throw `${ag}*¡YA NO TIENES TOKENS! 🪙*\n\n*COMPRA TOKENS PARA PODER INVITAR A MAKANAKYBOT A TÚ GRUPO CON EL COMANDO *${usedPrefix}buy joincount 3 o ${usedPrefix}buy Para ver la Tienda*`
  if (!args[1]) throw `${mg}*USE EL COMANDO COMO ESTE EJEMPLO*\n*${usedPrefix + command} enlace y Número de Token(s)*\n\n*EJEMPLO*\n*${usedPrefix + command} ${nn} 3*\n\n*3 TOKEN 🪙 = 30 MINUTOS*`
 if (!linkRegex.test(args[0])) throw `${fg}𝙀𝙉𝙇𝘼𝘾𝙀 𝙉𝙊 𝙑𝘼𝙇𝙄𝘿𝙊.` //Aquí 
 
 let res = await conn.groupAcceptInvite(code) 
-conn.reply(m.chat, `✅ *SE HA UNIDO DORRATBOT AL GRUPO!!!*`, m).then(async() => { //Si el Owner se une al Grupo no habrá temporizador
+conn.reply(m.chat, `✅ *SE HA UNIDO MAKANAKYBOT AL GRUPO!!!*`, m).then(async() => { //Si el Owner se une al Grupo no habrá temporizador
 let img = './Menu2.jpg'
  var jumlahHari = 600000 * args[1] // 10 minutos | Owner
  var now = new Date() * 1
@@ -74,7 +74,7 @@ let img = './Menu2.jpg'
 else global.db.data.chats[res].expired = now + jumlahHari
 
 await conn.reply(m.chat, `✅ SE HA UNIDO AL GRUPO!!!\n${await conn.getName(res)}\n\n*RECUERDE QUE ES ⏳ TEMPORAL, USE EL COMANDO ${usedPrefix}menu PARA VER EL MENÚ*\n\n🚪 *ME SALDRÉ AUTOMÁTICAMENTE EN:*\n${msToDate(global.db.data.chats[res].expired - now)}\n\n${username} *LE QUEDA ${user.joincount} TOKEN(S) 🪙*\n\n❕ *PUEDE USAR EL COMANDO TAMBIÉN EN GRUPO MIENTRAS ESTE YO*\n\n❕ *SI QUIERE QUE ESTE POR MÁS TIEMPO AUMENTE EL NÚMERO DE TOKENS CUANDO USE EL COMANDO*\n*${usedPrefix + command}*\n\n❗ *EN CASO QUE UN ADMIN ME ELIMINE DEL GRUPO Y QUIERA QUE VUELVA NO SE VA PODER*`, m)  
-await conn.reply(m.chat, `${wm} *ES UN BOT DE WHATSAPP QUE TE AYUDARÁ A REALIZAR DIFERENTES ACTIVIDADES 🪄 AL PRIVADO O GRUPO Y TAMBIÉN TE VAS A DIVERTIR 🎈 CON SUS MULTIPLES FUNCIONES, DISFRUTA DE DORRATBOT!!! 😎*\n\n👑 *DORRATBOT FUE INVITADO POR:*\n${username}`, m)
+await conn.reply(m.chat, `${wm} *ES UN BOT DE WHATSAPP QUE TE AYUDARÁ A REALIZAR DIFERENTES ACTIVIDADES 🪄 AL PRIVADO O GRUPO Y TAMBIÉN TE VAS A DIVERTIR 🎈 CON SUS MULTIPLES FUNCIONES, DISFRUTA DE MAKANAKYBOT!!! 😎*\n\n👑 *MAKANAKYBOT FUE INVITADO POR:*\n${username}`, m)
 for (let jid of global.owner.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').filter(v => v != m.sender)) {
 let data = (await conn.onWhatsApp(jid))[0] || {}
   if (data.exists) 

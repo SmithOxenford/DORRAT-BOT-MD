@@ -19,7 +19,7 @@ conn.sendMessage(m.chat, {
          mentionedJid: [m.sender],
          externalAdReply: {
              title: `RPG - BANK`,
-             sourceUrl: 'http://paypal.me/DorratBotOficial',
+             sourceUrl: 'http://paypal.me',
              mediaType: 1,
              showAdAttribution: true,
              thumbnailUrl: "https://telegra.ph/file/e01c177fb1c61f453c659.jpg",
