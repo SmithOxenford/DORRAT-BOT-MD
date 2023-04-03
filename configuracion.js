@@ -10,17 +10,17 @@ import { en, es, pt } from './lib/idiomas/total-idiomas.js'
 
 //cambia los números que sean propietarios 
 global.owner = [
-  ['525560066050', '🔰 𝐃𝐈𝐄𝐆𝐎 - 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 🔰', true],
-  ['51993138466', '🔰  𝐃𝐎𝐑𝐑𝐀𝐓∆𝐁𝐎𝐓 - 𝙲𝙾𝙻𝙻𝙰𝙱𝙾𝚁𝙰𝚃𝙾𝚁 1 🔰', true],
-  ['573184314110', '🔰 𝐃𝐎𝐑𝐑𝐀𝐓∆𝐁𝐎𝐓 - 𝙲𝙾𝙻𝙻𝙰𝙱𝙾𝚁𝙰𝚃𝙾𝚁 3 🔰', true],
-  ['50246028932', '🔰  𝐃𝐎𝐑𝐑𝐀𝐓∆𝐁𝐎𝐓 - 𝙲𝙾𝙻𝙻𝙰𝙱𝙾𝚁𝙰𝚃𝙾𝚁 4 🔰', true],
-  ['584125778026'],
-  ['595986674310'],
-  ['51936767238'],
-  ['50495625729'],
-  ['593968585383'],
-  ['5219996125657'],
-  ['51957041866']
+  ['51986206184', '🔰 𝐀𝐃𝐑𝐈𝐀𝐍𝐎 - 𝐂𝐑𝐄𝐀𝐃𝐎𝐑 🔰', true],
+  ['51986206184', '🔰  𝐃𝐎𝐑𝐑𝐀𝐓∆𝐁𝐎𝐓 - 𝙲𝙾𝙻𝙻𝙰𝙱𝙾𝚁𝙰𝚃𝙾𝚁 1 🔰', true],
+  ['51986206184', '🔰 𝐃𝐎𝐑𝐑𝐀𝐓∆𝐁𝐎𝐓 - 𝙲𝙾𝙻𝙻𝙰𝙱𝙾𝚁𝙰𝚃𝙾𝚁 3 🔰', true],
+  ['51986206184', '🔰  𝐃𝐎𝐑𝐑𝐀𝐓∆𝐁𝐎𝐓 - 𝙲𝙾𝙻𝙻𝙰𝙱𝙾𝚁𝙰𝚃𝙾𝚁 4 🔰', true],
+  ['51986206184'],
+  ['51986206184'],
+  ['51986206184'],
+  ['51986206184'],
+  ['51986206184'],
+  ['51986206184'],
+  ['51986206184']
   
 
 ] 
@@ -90,7 +90,7 @@ global.openai_org_id = 'org-3'
 global.lenguajeGB = es
 
 /* ______________________________________________ */
-global.creadorname = '𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂'
+global.creadorname = '𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙'
 global.creatorname = creadorname
 global.library = 'BAILEYS-MD'
 global.vs = 'V10'
@@ -105,20 +105,20 @@ global.mes = d.toLocaleDateString('es', { month: 'long' })
 global.año = d.toLocaleDateString('es', { year: 'numeric' })
 global.tiempo = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
 //------------- Sticker WM -----------
-global.packname = `𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂`
-global.author = `©⏤͟͟͞𝐓𝐇𝐄 𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃`
+global.packname = `𝐁𝐎𝐓-𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘-𝐆𝐀𝐀𝐀`
+global.author = `𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙`
 //_______________
-global.wm = '𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓 | 𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂'
-global.db3t = `©⏤͟͟͞𝐓𝐇𝐄 𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃`
+global.wm = '𝐁𝐎𝐓-𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘-𝐆𝐀𝐀𝐀 | 𝐀𝐃𝐑𝐈𝐀𝐍𝐎 𝐒𝐀𝐍𝐂𝐇𝐄𝐙'
+global.db3t = `𝐁𝐎𝐓-𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘-𝐆𝐀𝐀𝐀`
 global.wm3 = db3t
-global.codex = `Diego-Ofc`
-global.igfg = '𝑫𝑶𝑹𝑹𝑨𝑻-𝑩𝑶𝑻'
+global.codex = `Adriano Sanchez`
+global.igfg = '𝑩𝑶𝑻-𝑴𝑨𝑲𝑨𝑵𝑨𝑲𝒀-𝑮𝑨𝑨𝑨'
 global.wait = '*[❕] CARGANDO POR FAVOR ESPERA...*'
 //-------------------
-global.md = 'https://chat.whatsapp.com/JuuuUaIQnnE3t4SWQenShg'
+global.md = 'https://chat.whatsapp.com'
 global.dorramd = md
 global.tarje = 'Banesco'
-global.yt = 'http://youtube.com/@diegogameplays82'
+global.yt = 'http://youtube.com'
 global.youtube = yt
 //Menu
 global.DorrafotoMenu = ['./galería/dorratmini.mp4']
@@ -130,7 +130,7 @@ global.fg = '☆━━━━ ⚠️ 𝙵𝙰𝙻𝙻𝙾 ⚠️ ━━━☆'
 global.fallo = fg
 global.mg = '══ ❎ 𝙻𝙾 𝚄𝚂𝙾 𝙼𝙰𝙻 ❎ ══'
 global.mal = mg
-global.dorre = 'DORRAT-BOT-MD'
+global.dorre = 'BOT-MAKANAKY-GAAA'
 global.DORRA = dorre
 
 /* Imagenes___________________ */
@@ -563,3 +563,4 @@ watchFile(file, () => {
   console.log(chalk.redBright("se actualizo 'configuracion.js'"))
   import(`${file}?update=${Date.now()}`)
 })
+  
