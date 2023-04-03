@@ -31,7 +31,7 @@ m.reply(`[ 𝐂𝐀𝐑𝐆𝐀𝐍𝐃𝐎 𝐌𝐄𝐍𝐔... ]`)
 //no me roben la decoracion, no tengo creatividad
 
 let menuA = `
-*╭━━❍𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃❍━━╮*
+*╭━━❍𝐁𝐎𝐓-𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘-𝐆𝐀𝐀𝐀❍━━╮*
 *┃ ╭━━━━━━━━━━━━━━━━╮*
 *┃ ┃ ╭┈────────────╮*
 *┃ ┃ │❍  𝐌𝐄𝐍𝐔 ❍*
@@ -42,7 +42,7 @@ let menuA = `
 *┃┃  ❍ ${ucapan()} ❍*
 *┃┣━━━━━━━━━━━━━━━━╾•*
 *┃┃ ⋄ CREADOR DEL BOT:  ${creatorname}*
-*┃┃ ⋄ NUMERO DEL CREADOR: wa.me/593959425714 (𝐍𝐎 𝐁𝐎𝐓)*
+*┃┃ ⋄ NUMERO DEL CREADOR: wa.me/51986206184 (𝐍𝐎 𝐁𝐎𝐓)*
 *┃┃ ⋄ VERSION » ${vs}*
 *┃┃ ⋄ FECHA » ${week}, ${date}*
 *┃┃ ⋄ TIEMPO ACTIVO » ${uptime}*
@@ -50,7 +50,7 @@ let menuA = `
 *┃┃ ⋄ LENGUAJE » 𝐄𝐒𝐏𝐀𝐍̃𝐎𝐋*
 *┃┃ ⋄ USUARIOS » ${Object.keys(global.db.data.users).length}*
 *┃╰━━━━━━━━━━━━━━━━╾•*
-*╰━━━╼𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃╾━━━╯*`.trim()
+*╰━━━╼𝐁𝐎𝐓-𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘-𝐆𝐀𝐀𝐀╾━━━╯*`.trim()
 
 let menuB = `
 *═〔 INFO DEL USUARIO 〕⬣═*
@@ -510,8 +510,8 @@ let menuB = `
 𒅄 ▬▬▬▬ ◆ ▬▬▬▬ 𒅄
 
 ╔══════════════════╗ 
-║ ❒ 𝐃𝐎𝐑𝐑𝐀𝐓-𝐁𝐎𝐓-𝐌𝐃     
-║ ❒ 𝐁𝐘 𝐃𝐈𝐄𝐆𝐎-𝐎𝐅𝐂       
+║ ❒ 𝐌𝐀𝐊𝐀𝐍𝐀𝐊𝐘 𝐁𝐎𝐓    
+║ ❒ 𝐁𝐘 𝐀𝐃𝐑𝐈𝐀𝐍𝐎      
 ╚══════════════════╝
 `.trim()
 await conn.sendButton(m.chat, menuA, menuB,  db, [
@@ -541,7 +541,7 @@ sections }
  conn.sendMessage(m.chat, listMessage, {quoted: fkontak})	
 }
 
-handler.command = /^(menucompleto|menu completo|allmenu|menú|help|menu)$/i
+handler.command = /^(menucompleto|menu completo|allmenu)$/i
 handler.exp = 50
 handler.fail = null
 export default handler
